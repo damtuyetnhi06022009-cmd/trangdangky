@@ -1,0 +1,50 @@
+.conststyles {
+  container{
+    height: "100vh";
+    display: "flex";
+    justify-Content: "center";
+    align-Items: "center";
+    background: "#f4f6f8";
+    font-Family: "Arial";
+  }
+  .card{
+    background: "#fff";
+    padding: "40px";
+    border-Radius: "10px";
+    box-Shadow: "0 5px 20px rgba(0,0,0,0.1)";
+    width: "320px";
+    text-Align: "center";
+  }
+  title {
+    margin-Bottom: "5px";
+    color: "#333",
+  }
+  subtitle {
+    margin-Bottom: "20px";
+    color: "#777";
+    font-Size: "14px";
+  }
+  form{
+    display: "flex";
+    flex-Direction: "column";
+  }
+  input {
+    padding: "10px";
+    margin-Bottom: "15px";
+    border-Radius: "6px";
+    border: "1px solid #ccc";
+  }
+  button {
+    padding: "10px";
+    background: "#4CAF50";
+    color: "#fff";
+    border: "none";
+    border-Radius: "6px";
+    cursor: "pointer";
+    font-Weight: "bold";
+  }
+  footer {
+    margin-Top: "15px";
+    font-Size: "13px";
+  }
+};
